@@ -1,7 +1,9 @@
 # Pi-DarkHole
 Another dark mode theme for Pi-Hole AdminLTE Dashboard
 
-Inspired from [lkd70 PiHole-Dark](https://github.com/lkd70/PiHole-Dark/blob/master/README.md)
+Compatible with Pi-hole v4.3
+
+Inspired from [lkd70/PiHole-Dark](https://github.com/lkd70/PiHole-Dark/blob/master/README.md)
 
 ![Screenshot](https://puu.sh/CA4rg/ad54052dd5.png)
 
