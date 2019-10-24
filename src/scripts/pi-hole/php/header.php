@@ -60,6 +60,15 @@
         {
             $temperatureunit = $_POST["tempunit"];
         }
+        // Get user-defined temperature limit if set
+        if(isset($setupVars['TEMPERATURE_LIMIT']))
+        {
+            $temperaturelimit = intval($setupVars['TEMPERATURE_LIMIT']);
+        }
+        else
+        {
+            $temperaturelimit = 60;
+        }
     }
     else
     {

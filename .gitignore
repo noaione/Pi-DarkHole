@@ -1,0 +1,7 @@
+AdminLTE-master
+
+# Non minimal css
+AdminLTE.css
+dataTables.bootstrap.css
+skin-blue.css
+*.old.css
