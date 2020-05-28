@@ -3,6 +3,7 @@ echo "Backing up files that will be patched..."
 cp admin/img/boxed-bg.jpg admin/img/boxed-bg.jpg.backup
 cp admin/network.php admin/network.php.backup
 cp admin/scripts/pi-hole/php/header.php admin/scripts/pi-hole/php/header.php.backup
+cp admin/scripts/pi-hole/js/network.js admin/scripts/pi-hole/js/network.js.backup
 cp admin/style/pi-hole.css admin/style/pi-hole.css.backup
 cp admin/style/vendor/skin-blue.min.css admin/style/vendor/skin-blue.min.css.backup
 cp admin/style/vendor/AdminLTE.min.css admin/style/vendor/AdminLTE.min.css.backup
@@ -21,11 +22,13 @@ while true; do
             rm -f admin/style/vendor/dataTables.bootstrap.min.css
             rm -f admin/style/pi-hole.css
             rm -f admin/scripts/pi-hole/php/header.php
+            rm -f admin/scripts/pi-hole/js/network.js
             rm -f admin/network.php
             rm -f admin/img/boxed-bg.jpg
             cp pidarkhole-src/src/img/boxed-bg.jpg admin/img/boxed-bg.jpg
             cp pidarkhole-src/src/network.php admin/network.php
             cp pidarkhole-src/src/scripts/pi-hole/php/header.php admin/scripts/pi-hole/php/header.php
+            cp pidarkhole-src/src/scripts/pi-hole/js/network.js admin/scripts/pi-hole/js/network.js
             cp pidarkhole-src/src/style/pi-hole.css admin/style/pi-hole.css
             cp pidarkhole-src/src/style/vendor/skin-blue.min.css admin/style/vendor/skin-blue.min.css
             cp pidarkhole-src/src/style/vendor/AdminLTE.min.css admin/style/vendor/AdminLTE.min.css
