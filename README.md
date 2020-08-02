@@ -1,3 +1,8 @@
+# Archived
+Use the official Dark mode that are available from [AdminLTE v5.1](https://github.com/pi-hole/AdminLTE/releases/tag/v5.1)
+
+---
+
 # Pi-DarkHole
 Another dark mode theme for Pi-Hole AdminLTE Dashboard
 
